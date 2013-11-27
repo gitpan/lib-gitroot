@@ -1,3 +1,5 @@
+use lib 'inc';
+use Devel::AssertOS qw[-MSWin32];
 
 use strict;
 use warnings;
@@ -18,7 +20,7 @@ my %module_build_args = (
     "Victor Efimov <efimov\@reg.ru>"
   ],
   "dist_name" => "lib-gitroot",
-  "dist_version" => "0.002",
+  "dist_version" => "0.003",
   "license" => "perl",
   "module_name" => "lib::gitroot",
   "recommends" => {},

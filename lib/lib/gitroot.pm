@@ -1,6 +1,6 @@
 package lib::gitroot;
 
-our $VERSION = '0.002'; # VERSION
+our $VERSION = '0.003'; # VERSION
 
 use Modern::Perl;
 use File::Spec;

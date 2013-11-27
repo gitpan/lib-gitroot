@@ -15,6 +15,9 @@ _build/magicnum
 _build/notes
 _build/prereqs
 _build/runtime_params
+inc/Devel/AssertOS.pm
+inc/Devel/AssertOS/MSWin32.pm
+inc/Devel/CheckOS.pm
 lib/lib/gitroot.pm
 t/author-test-eol.t
 t/filepath.t

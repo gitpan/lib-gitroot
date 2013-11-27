@@ -13,6 +13,11 @@
       "version" : "2"
    },
    "name" : "lib-gitroot",
+   "no_index" : {
+      "directory" : [
+         "inc"
+      ]
+   },
    "prereqs" : {
       "build" : {
          "requires" : {
@@ -58,7 +63,7 @@
    "provides" : {
       "lib::gitroot" : {
          "file" : "lib/lib/gitroot.pm",
-         "version" : "0.002"
+         "version" : "0.003"
       }
    },
    "release_status" : "stable",
@@ -73,6 +78,6 @@
          "web" : "https://github.com/regru/lib-gitroot"
       }
    },
-   "version" : "0.002"
+   "version" : "0.003"
 }
 

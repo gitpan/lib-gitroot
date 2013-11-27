@@ -1,3 +1,5 @@
+use lib 'inc';
+use Devel::AssertOS qw[-MSWin32];
 
 use strict;
 use warnings;
@@ -36,7 +38,7 @@ my %WriteMakefileArgs = (
     "Test::Pod" => "1.22",
     "Test::Spec" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
