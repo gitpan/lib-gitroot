@@ -37,8 +37,8 @@
       },
       "runtime" : {
          "requires" : {
+            "File::Spec" : "0",
             "Modern::Perl" : "0",
-            "Test::Spec" : "0",
             "lib" : "0",
             "perl" : "5.010000"
          }
@@ -47,24 +47,32 @@
          "requires" : {
             "Capture::Tiny" : "0",
             "File::Path" : "0",
-            "File::Spec" : "0",
             "File::Temp" : "0.16",
             "Test::Deep" : "0",
             "Test::More" : "0",
-            "Test::Pod" : "1.22"
+            "Test::Pod" : "1.22",
+            "Test::Spec" : "0"
          }
       }
    },
    "provides" : {
       "lib::gitroot" : {
          "file" : "lib/lib/gitroot.pm",
-         "version" : "0.001"
+         "version" : "0.002"
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "homepage" : "https://metacpan.org/release/lib-gitroot"
+      "bugtracker" : {
+         "web" : "https://github.com/regru/lib-gitroot/issues"
+      },
+      "homepage" : "https://github.com/regru/lib-gitroot",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/regru/lib-gitroot.git",
+         "web" : "https://github.com/regru/lib-gitroot"
+      }
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }
 

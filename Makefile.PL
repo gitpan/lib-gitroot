@@ -23,20 +23,20 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "lib::gitroot",
   "PREREQ_PM" => {
+    "File::Spec" => 0,
     "Modern::Perl" => 0,
-    "Test::Spec" => 0,
     "lib" => 0
   },
   "TEST_REQUIRES" => {
     "Capture::Tiny" => 0,
     "File::Path" => 0,
-    "File::Spec" => 0,
     "File::Temp" => "0.16",
     "Test::Deep" => 0,
     "Test::More" => 0,
-    "Test::Pod" => "1.22"
+    "Test::Pod" => "1.22",
+    "Test::Spec" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
